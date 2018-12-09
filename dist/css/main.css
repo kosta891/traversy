@@ -190,6 +190,25 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 16px; }
+  .boxes div {
+    font-size: 32px;
+    border: #fff 3px solid;
+    padding: 24px 40px;
+    margin-bottom: 48px;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 8px 24px;
+      background: #eece1a;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
